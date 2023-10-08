@@ -16,12 +16,12 @@ fn main() {
     a = 0;
     b = 1;
     if d == 1 {
-        println!("Finobacci number is: {a}");
+        println!("Fibonacci number is: {a}");
     } else if d == 2 {
-        println!("Finobacci number is: {b}");
+        println!("Fibonacci number is: {b}");
     } else if d > 2 {
-        println!("Finobacci number is: {a}");
-        println!("Finobacci number is: {b}");
+        println!("Fibonacci number is: {a}");
+        println!("Fibonacci number is: {b}");
         d -= 2;
 
         while d > 0 {
@@ -29,7 +29,7 @@ fn main() {
             a = b;
             b = c;
             d -= 1;
-            println!("Finobacci number is: {c}");
+            println!("Fibonacci number is: {c}");
         }
     }
 }
